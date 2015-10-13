@@ -12,7 +12,7 @@ with a few, easy-to-remember commands.
 
 To install from npm, run
 
-`npm install -g opm`
+`npm install -g blakek/opm`
 
 ## Usage
 
@@ -37,7 +37,12 @@ just about everything is optional.  It is recommended you have:
 
 More information is coming soon, but the gist of it is:
 
-### require() the opm module
+### Install and require() the opm module
+
+```javascript
+npm install --save blakek/opm
+```
+
 ```javascript
 var opm = require('opm')
 ```
