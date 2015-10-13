@@ -1,0 +1,34 @@
+{
+  "name": "opm",
+  "main": "bin/index.js",
+  "version": "1.0.0",
+  "description": "A simple, consistent front-end to package managers to let you manage everything in one place.",
+  "author": "Blake Knight <oss.ideas@gmail.com> (http://blakek.me/)",
+  "preferGlobal": "true",
+  "bin": {
+    "opm": "./bin/index.js"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "node bin/index.js",
+    "bkinstall": "npm install -g ."
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakek/opm.git"
+  },
+  "keywords": [
+    "opm",
+    "orchestrating",
+    "package",
+    "manager",
+    "cross",
+    "platform"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakek/opm/issues"
+  },
+  "homepage": "https://github.com/blakek/opm#readme"
+}
