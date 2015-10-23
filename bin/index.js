@@ -16,4 +16,6 @@ opm.init()
 
 if (argv[0] === 'outdated') {
 	opm.outdated()
+} else if (argv[0] === 'install') {
+    opm.install(argv[1], argv[2])
 }
