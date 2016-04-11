@@ -10,8 +10,9 @@
   },
   "dependencies": {},
   "scripts": {
-    "start": "node bin/index.js",
-    "bkinstall": "npm install -g ."
+    "bkinstall": "npm install -g .",
+    "lint": "eslint .",
+    "start": "node bin/index.js"
   },
   "devDependencies": {},
   "repository": {
