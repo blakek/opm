@@ -15,6 +15,8 @@ if (argv[0] === 'outdated') {
   opm.outdated()
 } else if (argv[0] === 'install') {
   opm.install(argv[1], argv[2])
+} else if (argv[0] === 'backup') {
+  opm.backup()
 } else {
   console.log(helpStrings.shortUsage)
 }

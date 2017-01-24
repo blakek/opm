@@ -8,7 +8,9 @@
   "bin": {
     "opm": "./bin/index.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "async": "^2.0.0-rc.3"
+  },
   "scripts": {
     "bkinstall": "npm install -g .",
     "lint": "eslint .",
